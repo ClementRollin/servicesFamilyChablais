@@ -1,0 +1,194 @@
+body { 
+    background-color:whitesmoke;
+    margin: 0px;
+    padding: 0px;
+    font-family : 'Roboto', sans-serif ;
+    font-weight: bold;
+}
+.header {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    filter: drop-shadow(10px 5px 4px rgb(240,0,255));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.gauche img {
+    width: 100px;
+    height: 100px;
+}
+.droite {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header button{
+    margin-top: 10px;
+    background-color: white;
+    color: rgb(240,0,255);
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.header button a{
+    color: rgb(240,0,255);
+    text-decoration: none;
+}
+.titre {
+    margin-top: 70px;
+}
+.titre h1 {
+    text-align: center;
+    color: rgb(240,0,255);
+}
+.explication {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.explication h3 {
+    text-align: center;
+    color: rgb(180, 180, 180);
+    line-height: 15px;
+}
+.titre h2 {
+    text-align: center;
+    color: rgb(240, 0, 255);
+}
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.services .texte {
+    text-align: center;
+    color: rgb(180, 180, 180);
+    font-size: larger;
+}
+.services img {
+    width: 380px;
+    height: 320px;
+}
+.lieu, .prix{
+    width: 380px;
+}
+.retour {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.retour button{
+    margin-top: 10px;
+    background-color: whitesmoke;;
+    color: rgb(240,0,255);
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.retour button a{
+    color: rgb(240,0,255);
+    text-decoration: none;
+}
+.footer {
+    background-color: rgb(240,0,255);
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.coordonnees {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.coordonnees .infos {
+    line-height: 5px;
+    height: 160px;
+}
+.infos h5 {
+    font-size: small;
+}
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.navigation button {
+    margin-top: 10px;
+    background-color: rgb(240,0,255);
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.navigation .lien {
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.reseau {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.adresse a {
+    margin-top: 10px;
+    background-color: rgb(240,0,255);
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.contact {
+    height: 160px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.mail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mail .icon img {
+    width: 40px;
+    height: 40px;
+}
+.facebook {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.facebook .icon img {
+    width: 40px;
+    height: 40px;
+}
+.facebook .appli {
+    margin-left: 18px;
+}
